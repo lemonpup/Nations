@@ -35,5 +35,7 @@ public class Democracy implements Government{
   boolean isRatified(ballot) {
     if(staff votes >= config required votes)
     then return true;
-    
+    }
+  
+  
   
