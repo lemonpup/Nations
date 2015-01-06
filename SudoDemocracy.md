@@ -1,0 +1,39 @@
+Democracy Sudocode
+==================
+
+public class Democracy implements Government{
+
+  boolean isAllowed() {
+    if(core.checkIfAllowed(this))
+    return true;
+    else return false;
+  }
+  
+  boolean hasFunds() {
+    if core.getPlayer(sender).getBalence(player) >= core.democracyCost()
+    return true;
+    else false;
+    }
+  
+  boolean typeAllowStaffVoting() {
+  return true
+  }
+  
+  boolean typeAllowResidentVoting() {
+  return true
+  }
+
+  string nontificationSender() {
+   if(!this.isAllowed()) {
+    send message "Type Democracy Not Allowed!"
+    } else if(!this.hasFunds()) {
+      send message "Not Enough Funds For Democracy!"
+      }
+    }
+    
+  
+  boolean isRatified(ballot) {
+    if(staff votes >= config required votes)
+    then return true;
+    
+  
