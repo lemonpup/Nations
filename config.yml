@@ -1,0 +1,20 @@
+##Sample Config
+#Allowed Governments
+allow-democracy: true
+allow-dictatorship: false
+allow-republic: true
+allow-communism: true
+allow-socialism: true
+allow-anarchy: true
+allow-monarchy: true
+
+#Government Creation Costs
+cost-democracy: 15000
+cost-dictatorship: 20000
+cost-republic: 18000
+cost-communism: 20000
+cost-socialism: 20000
+cost-anarchy: 10000
+cost-monarchy: 15000
+
+ratification-amount: 5
