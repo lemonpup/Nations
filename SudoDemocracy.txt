@@ -37,5 +37,27 @@ public class Democracy implements Government{
     then return true;
     }
   
+  void voteCounter(ballot) {
+    if(isRatified) then 
+      public int counter;
+      for every resident that votes counter++
+      }
+      
+  boolean votePass(ballot) {
+    if(counter >= config.passAmount())
+      add to ballot board
+  }
   
+  boolean isWarRatified() {
+    if(config.staffOnly()) then 
+    if(staff votes >= 2/3(staff)) then 
+    return true;
+    else false
+  }
   
+  boolean resRatifyWar() {
+    if(!config.staffOnly()) then
+    if(res votes >= 2/3 of the amount total online in the nation the past 3 days)
+    return true;
+    else false
+  }  
